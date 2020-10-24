@@ -1,4 +1,4 @@
-function addZombie () {
+ function addZombie () {
     zombieNumber = randint(0, zombieImgs.length - 1)
     zombie = sprites.create(zombieImgs[zombieNumber], SpriteKind.Enemy)
     zombie.follow(oldLady, 10)
